@@ -41,12 +41,12 @@ The output is an Excel workbook and CSV files that provide a complete overview o
 
 | File | Description |
 |---|---|
-| `portraits-from-kb-assess-depicts-q5-status.py` | Main Python script — fetches all data from Commons and Wikidata APIs and produces the Excel/CSV output |
-| `kb-portraits-depicts-q5-status-YYYYMMDD.xlsx` | Excel workbook with three sheets: `all`, `missing` (no depicts), `present` (has depicts) |
-| `kb-portraits-depicts-q5-status-all-YYYYMMDD.csv` | CSV export of the `all` sheet |
-| `kb-portraits-depicts-q5-status-missing-YYYYMMDD.csv` | CSV export of the `missing` sheet |
-| `kb-portraits-depicts-status-wmc-queries.rq` | Two SPARQL queries for the [Wikimedia Commons Query Service](https://commons-query.wikimedia.org/) |
-| `portraits-from-kb-documentation.md` | Detailed documentation of the Excel structure, Python script workflow, and SPARQL queries |
+| [`portraits-from-kb-assess-depicts-q5-status.py`](portraits-from-kb-assess-depicts-q5-status.py) | Main Python script — fetches all data from Commons and Wikidata APIs and produces the Excel/CSV output |
+| [`kb-portraits-depicts-q5-status-YYYYMMDD.xlsx`](kb-portraits-depicts-q5-status-20260410.xlsx) | Excel workbook with three sheets: `all`, `missing` (no depicts), `present` (has depicts) |
+| [`kb-portraits-depicts-q5-status-all-YYYYMMDD.csv`](kb-portraits-depicts-q5-status-all-20260410.csv) | CSV export of the `all` sheet |
+| [`kb-portraits-depicts-q5-status-missing-YYYYMMDD.csv`](kb-portraits-depicts-q5-status-missing-20260410.csv) | CSV export of the `missing` sheet |
+| [`kb-portraits-depicts-status-wmc-queries.rq`](kb-portraits-depicts-status-wmc-queries.rq) | Two SPARQL queries for the [Wikimedia Commons Query Service](https://commons-query.wikimedia.org/) |
+| [`portraits-from-kb-documentation.md`](portraits-from-kb-documentation.md) | Detailed documentation of the Excel structure, Python script workflow, and SPARQL queries |
 
 ## Quick start
 
