@@ -1,0 +1,72 @@
+SELECT ?file ?title
+  (GROUP_CONCAT(DISTINCT STR(?depicts); SEPARATOR="|") AS ?depicts_list)
+  (GROUP_CONCAT(DISTINCT ?depicts_label; SEPARATOR="|") AS ?depicts_labels)
+  (GROUP_CONCAT(DISTINCT ?commonscat; SEPARATOR="|") AS ?commonscats)
+WITH
+{
+  SELECT DISTINCT ?file ?title
+  WHERE
+  {
+    SERVICE wikibase:mwapi
+    {
+      bd:serviceParam wikibase:api "Generator" .
+      bd:serviceParam wikibase:endpoint "commons.wikimedia.org" .
+      bd:serviceParam mwapi:gcmtitle "Category:Portraits from Koninklijke Bibliotheek" .
+      bd:serviceParam mwapi:generator "categorymembers" .
+      bd:serviceParam mwapi:gcmtype "file" .
+      bd:serviceParam mwapi:gcmlimit "max" .
+      ?title wikibase:apiOutput mwapi:title .
+      ?pageid wikibase:apiOutput "@pageid" .
+    }
+    BIND (URI(CONCAT('https://commons.wikimedia.org/entity/M', ?pageid)) AS ?file)
+  }
+} AS %get_files
+WHERE
+{
+  INCLUDE %get_files
+  OPTIONAL {
+    ?file wdt:P180 ?depicts .
+    SERVICE <https://query.wikidata.org/sparql> {
+      ?depicts wdt:P31 wd:Q5 .
+      ?depicts wdt:P373 ?commonscat. 
+      ?depicts rdfs:label ?depicts_label FILTER (lang(?depicts_label) = "en")
+    }
+  }
+}
+GROUP BY ?file ?title
+
+
+================================
+
+SELECT DISTINCT ?file ?title ?depicts ?depicts_label ?depicts_description ?commonscat
+WITH
+{
+  SELECT DISTINCT ?file ?title
+  WHERE
+  {
+    SERVICE wikibase:mwapi
+    {
+      bd:serviceParam wikibase:api "Generator" .
+      bd:serviceParam wikibase:endpoint "commons.wikimedia.org" .
+      bd:serviceParam mwapi:gcmtitle "Category:Portraits from Koninklijke Bibliotheek" .
+      bd:serviceParam mwapi:generator "categorymembers" .
+      bd:serviceParam mwapi:gcmtype "file" .
+      bd:serviceParam mwapi:gcmlimit "max" .
+      ?title wikibase:apiOutput mwapi:title .
+      ?pageid wikibase:apiOutput "@pageid" .
+    }
+    BIND (URI(CONCAT('https://commons.wikimedia.org/entity/M', ?pageid)) AS ?file)
+  }
+} AS %get_files
+WHERE
+{
+  INCLUDE %get_files
+  ?file wdt:P180 ?depicts .
+    service <https://query.wikidata.org/sparql> {
+    ?depicts wdt:P31 wd:Q5.
+    OPTIONAL{ ?depicts wdt:P373 ?commonscat }
+    OPTIONAL{ ?depicts rdfs:label ?depicts_label FILTER (lang(?depicts_label) = "en") }
+    OPTIONAL{ ?depicts schema:description ?depicts_description FILTER (lang(?depicts_description) = "en") }
+    }
+
+}

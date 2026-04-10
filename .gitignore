@@ -1,0 +1,20 @@
+# Credentials
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Excel temp files
+~$*.xlsx
+
+# Helper/scratch scripts (not part of the main pipeline)
+_*.py
+_*.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
