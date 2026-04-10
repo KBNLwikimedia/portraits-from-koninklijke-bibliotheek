@@ -1,10 +1,35 @@
+<a href="https://commons.wikimedia.org/wiki/Category:Portraits_from_Koninklijke_Bibliotheek"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg" align="right" width="60" alt="Wikimedia Commons logo"></a>
+<a href="https://www.kb.nl/"><img src="media-assets/icon_kb2.png" align="right" width="120" alt="KB National Library logo"></a>
+
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![Python 3.7+](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
+[![MediaWiki API](https://img.shields.io/badge/API-MediaWiki-006699.svg)](https://www.mediawiki.org/wiki/API:Main_page)
+[![Wikidata](https://img.shields.io/badge/API-Wikidata-339966.svg)](https://www.wikidata.org/wiki/Wikidata:Data_access)
+[![Wikimedia Commons](https://img.shields.io/badge/Wikimedia-Commons-069.svg)](https://commons.wikimedia.org/wiki/Category:Portraits_from_Koninklijke_Bibliotheek)
+[![SPARQL](https://img.shields.io/badge/SPARQL-Commons_Query-purple.svg)](https://commons-query.wikimedia.org/)
+
 # Portraits from Koninklijke Bibliotheek
 
-Analysing and enriching structured data for portrait photographs from the [Koninklijke Bibliotheek](https://www.kb.nl/) (National Library of the Netherlands) on [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Portraits_from_Koninklijke_Bibliotheek).
+Analysing and enriching structured data for portrait images from the [Koninklijke Bibliotheek](https://www.kb.nl/) (National Library of the Netherlands) on [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Portraits_from_Koninklijke_Bibliotheek).
+
+<table>
+<tr>
+<td><a href="https://commons.wikimedia.org/wiki/File:Han_van_Meegeren_in_z%27n_Haagsche_atelier,_1928.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Han_van_Meegeren_in_z%27n_Haagsche_atelier%2C_1928.jpg/200px-Han_van_Meegeren_in_z%27n_Haagsche_atelier%2C_1928.jpg" width="200" alt="Han van Meegeren"></a><br><sub>Han van Meegeren (1889-1947)<br>painter and art forger</sub></td>
+<td><a href="https://commons.wikimedia.org/wiki/File:Emmy_Kruijt_-_Onze_Musici_(1923).jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Emmy_Kruijt_-_Onze_Musici_%281923%29.jpg/200px-Emmy_Kruijt_-_Onze_Musici_%281923%29.jpg" width="200" alt="Emmy Kruijt"></a><br><sub>Emmy Kruijt (1878-1964)<br>musician</sub></td>
+<td><a href="https://commons.wikimedia.org/wiki/File:Portret_van_David_Schulman.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Portret_van_David_Schulman.jpg/200px-Portret_van_David_Schulman.jpg" width="200" alt="David Schulman"></a><br><sub>David Schulman (1881-1966)<br>painter</sub></td>
+</tr>
+<tr>
+<td><a href="https://commons.wikimedia.org/wiki/File:Johannes_Tiberius_Bodel_Nijenhuis_(1797-1872),_1870_-_BBB-1390.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Johannes_Tiberius_Bodel_Nijenhuis_%281797-1872%29%2C_1870_-_BBB-1390.jpg/200px-Johannes_Tiberius_Bodel_Nijenhuis_%281797-1872%29%2C_1870_-_BBB-1390.jpg" width="200" alt="Johannes Bodel Nijenhuis"></a><br><sub>Johannes Bodel Nijenhuis (1797-1872)<br>publisher</sub></td>
+<td><a href="https://commons.wikimedia.org/wiki/File:Prof._dr._G._Eyskens.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Prof._dr._G._Eyskens.jpg/200px-Prof._dr._G._Eyskens.jpg" width="200" alt="Gaston Eyskens"></a><br><sub>Gaston Eyskens (1905-1988)<br>Belgian prime minister</sub></td>
+<td><a href="https://commons.wikimedia.org/wiki/File:Frans_van_Amelsvoort.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Frans_van_Amelsvoort.jpg/200px-Frans_van_Amelsvoort.jpg" width="200" alt="Frans van Amelsvoort"></a><br><sub>Frans van Amelsvoort (1919-1975)<br>composer</sub></td>
+</tr>
+</table>
+
+<sub>Example portraits from the collection on Wikimedia Commons. Click to view on Commons.</sub>
 
 ## What this project does
 
-The Commons category [Portraits from Koninklijke Bibliotheek](https://commons.wikimedia.org/wiki/Category:Portraits_from_Koninklijke_Bibliotheek) contains over 3,000 digitised portrait photographs. This project checks the structured data quality of these files:
+The Commons category [Portraits from Koninklijke Bibliotheek](https://commons.wikimedia.org/wiki/Category:Portraits_from_Koninklijke_Bibliotheek) contains over 3,000 digitised portrait images. This project checks the structured data quality of these files:
 
 - Does each file have a **[depicts (P180)](https://www.wikidata.org/wiki/Property:P180)** statement pointing to a **human ([Q5](https://www.wikidata.org/wiki/Q5))**?
 - Are the **file captions** (in English and Dutch) present and well-formed?
