@@ -14,14 +14,14 @@ Analysing and enriching structured data for portrait images from the [Koninklijk
 
 <table>
 <tr>
-<td><a href="https://commons.wikimedia.org/wiki/File:Han_van_Meegeren_in_z%27n_Haagsche_atelier,_1928.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Han_van_Meegeren_in_z%27n_Haagsche_atelier%2C_1928.jpg/200px-Han_van_Meegeren_in_z%27n_Haagsche_atelier%2C_1928.jpg" width="200" alt="Han van Meegeren"></a><br><sub>Han van Meegeren (1889-1947)<br>painter and art forger</sub></td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Emmy_Kruijt_-_Onze_Musici_(1923).jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Emmy_Kruijt_-_Onze_Musici_%281923%29.jpg/200px-Emmy_Kruijt_-_Onze_Musici_%281923%29.jpg" width="200" alt="Emmy Kruijt"></a><br><sub>Emmy Kruijt (1878-1964)<br>musician</sub></td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Portret_van_David_Schulman.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Portret_van_David_Schulman.jpg/200px-Portret_van_David_Schulman.jpg" width="200" alt="David Schulman"></a><br><sub>David Schulman (1881-1966)<br>painter</sub></td>
+<td><a href="https://commons.wikimedia.org/wiki/File:PORTRET-STUDIE._(Mej._Alida_Klein.)_van_C._E._Moegle_,_Fotograaf_Rotterdam,_1892.jpg"><img src="media-assets/alida-klein-1892.jpg" width="200" alt="Alida Klein, 1892"></a><br><sub>Alida Tartaud-Klein (1873-1938)<br>actress</sub></td>
+<td><a href="https://commons.wikimedia.org/wiki/File:Han_van_Meegeren_in_z%27n_Haagsche_atelier,_1928.jpg"><img src="media-assets/han-van-meegeren-1928.jpg" width="200" alt="Han van Meegeren, 1928"></a><br><sub>Han van Meegeren (1889-1947)<br>painter and art forger</sub></td>
+<td><a href="https://commons.wikimedia.org/wiki/File:Emmy_Kruijt_-_Onze_Musici_(1923).jpg"><img src="media-assets/emmy-kruijt-1923.jpg" width="200" alt="Emmy Kruijt, 1923"></a><br><sub>Emmy Kruijt (1878-1964)<br>musician</sub></td>
 </tr>
 <tr>
-<td><a href="https://commons.wikimedia.org/wiki/File:Johannes_Tiberius_Bodel_Nijenhuis_(1797-1872),_1870_-_BBB-1390.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Johannes_Tiberius_Bodel_Nijenhuis_%281797-1872%29%2C_1870_-_BBB-1390.jpg/200px-Johannes_Tiberius_Bodel_Nijenhuis_%281797-1872%29%2C_1870_-_BBB-1390.jpg" width="200" alt="Johannes Bodel Nijenhuis"></a><br><sub>Johannes Bodel Nijenhuis (1797-1872)<br>publisher</sub></td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Prof._dr._G._Eyskens.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Prof._dr._G._Eyskens.jpg/200px-Prof._dr._G._Eyskens.jpg" width="200" alt="Gaston Eyskens"></a><br><sub>Gaston Eyskens (1905-1988)<br>Belgian prime minister</sub></td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Frans_van_Amelsvoort.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Frans_van_Amelsvoort.jpg/200px-Frans_van_Amelsvoort.jpg" width="200" alt="Frans van Amelsvoort"></a><br><sub>Frans van Amelsvoort (1919-1975)<br>composer</sub></td>
+<td><a href="https://commons.wikimedia.org/wiki/File:Portret_van_David_Schulman.jpg"><img src="media-assets/david-schulman.jpg" width="200" alt="David Schulman"></a><br><sub>David Schulman (1881-1966)<br>painter</sub></td>
+<td><a href="https://commons.wikimedia.org/wiki/File:Prof._dr._G._Eyskens.jpg"><img src="media-assets/gaston-eyskens.jpg" width="200" alt="Gaston Eyskens"></a><br><sub>Gaston Eyskens (1905-1988)<br>Belgian prime minister</sub></td>
+<td><a href="https://commons.wikimedia.org/wiki/File:Alexander_Voormolen,_1931.jpg"><img src="media-assets/alexander-voormolen-1931.jpg" width="200" alt="Alexander Voormolen, 1931"></a><br><sub>Alexander Voormolen (1895-1980)<br>composer</sub></td>
 </tr>
 </table>
 
